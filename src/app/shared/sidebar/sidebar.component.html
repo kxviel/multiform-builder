@@ -1,3 +1,9 @@
 <div class="sidebar">
-    Sidebar
+    <h1>MFB ::..</h1>
+
+    <div class="sidebar__wrapper">
+        <div class="sidebar__wrapper__item" *ngFor="let item of questions">
+            <p>{{item.title}}</p>
+        </div>
+    </div>
 </div>
